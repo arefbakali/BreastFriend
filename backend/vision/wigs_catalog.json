@@ -1,0 +1,802 @@
+[
+  {
+    "id": "w01",
+    "name": "Pixie Lina",
+    "style": "Pixie",
+    "length": "court",
+    "texture": "lisse",
+    "color_name": "Châtain doré",
+    "color_hex": "#8A5A33",
+    "color_family": "chatain",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 75,
+    "price_tnd": 390,
+    "fringe": true,
+    "face_shapes": [
+      "ovale",
+      "coeur",
+      "allonge"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w01.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w02",
+    "name": "Pixie Nour",
+    "style": "Pixie texturé",
+    "length": "court",
+    "texture": "lisse",
+    "color_name": "Noir doux",
+    "color_hex": "#241C1A",
+    "color_family": "noir",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 70,
+    "price_tnd": 360,
+    "fringe": true,
+    "face_shapes": [
+      "ovale",
+      "coeur",
+      "allonge"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w02.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w03",
+    "name": "Court Argent",
+    "style": "Court dégradé",
+    "length": "court",
+    "texture": "ondule",
+    "color_name": "Gris argenté",
+    "color_hex": "#B8B8BC",
+    "color_family": "gris",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 80,
+    "price_tnd": 420,
+    "fringe": false,
+    "face_shapes": [
+      "ovale",
+      "carre",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w03.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w04",
+    "name": "Court Cannelle",
+    "style": "Court bouclé",
+    "length": "court",
+    "texture": "boucle",
+    "color_name": "Cuivré",
+    "color_hex": "#9C4A22",
+    "color_family": "roux",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "classique",
+    "weight_g": 95,
+    "price_tnd": 310,
+    "fringe": false,
+    "face_shapes": [
+      "ovale",
+      "carre",
+      "allonge"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w04.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w05",
+    "name": "Bob Yasmine",
+    "style": "Carré plongeant",
+    "length": "court",
+    "texture": "lisse",
+    "color_name": "Brun expresso",
+    "color_hex": "#3B2519",
+    "color_family": "brun",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "lace front",
+    "weight_g": 95,
+    "price_tnd": 480,
+    "fringe": false,
+    "face_shapes": [
+      "ovale",
+      "coeur",
+      "allonge",
+      "rond"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w05.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w06",
+    "name": "Bob Miel",
+    "style": "Carré flou",
+    "length": "court",
+    "texture": "ondule",
+    "color_name": "Blond miel",
+    "color_hex": "#C9A063",
+    "color_family": "blond",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 90,
+    "price_tnd": 450,
+    "fringe": true,
+    "face_shapes": [
+      "ovale",
+      "allonge",
+      "carre"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w06.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w07",
+    "name": "Carré Salma",
+    "style": "Carré frangé",
+    "length": "mi-long",
+    "texture": "lisse",
+    "color_name": "Châtain",
+    "color_hex": "#5C3A24",
+    "color_family": "chatain",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 105,
+    "price_tnd": 430,
+    "fringe": true,
+    "face_shapes": [
+      "allonge",
+      "coeur",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w07.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w08",
+    "name": "Lob Rania",
+    "style": "Lob asymétrique",
+    "length": "mi-long",
+    "texture": "lisse",
+    "color_name": "Brun chocolat",
+    "color_hex": "#4A2C1D",
+    "color_family": "brun",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "lace front",
+    "weight_g": 110,
+    "price_tnd": 520,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "carre",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w08.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w09",
+    "name": "Lob Cendré",
+    "style": "Lob effilé",
+    "length": "mi-long",
+    "texture": "lisse",
+    "color_name": "Blond cendré",
+    "color_hex": "#B9A68A",
+    "color_family": "blond",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 105,
+    "price_tnd": 490,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "carre",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w09.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w10",
+    "name": "Mi-long Dalia",
+    "style": "Dégradé ondulé",
+    "length": "mi-long",
+    "texture": "ondule",
+    "color_name": "Caramel",
+    "color_hex": "#A06A3A",
+    "color_family": "chatain",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 115,
+    "price_tnd": 470,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "rond",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w10.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w11",
+    "name": "Mi-long Selma",
+    "style": "Dégradé effilé",
+    "length": "mi-long",
+    "texture": "lisse",
+    "color_name": "Noir de jais",
+    "color_hex": "#141011",
+    "color_family": "noir",
+    "tone": "cool",
+    "material": "naturel",
+    "cap": "lace front",
+    "weight_g": 120,
+    "price_tnd": 1250,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "carre",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w11.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w12",
+    "name": "Mi-long Auburn",
+    "style": "Ondulations souples",
+    "length": "mi-long",
+    "texture": "ondule",
+    "color_name": "Auburn",
+    "color_hex": "#7A2E1F",
+    "color_family": "roux",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 115,
+    "price_tnd": 480,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w12.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w13",
+    "name": "Mi-long Boucles Amira",
+    "style": "Boucles définies",
+    "length": "mi-long",
+    "texture": "boucle",
+    "color_name": "Brun naturel",
+    "color_hex": "#38231A",
+    "color_family": "brun",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "classique",
+    "weight_g": 125,
+    "price_tnd": 400,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "allonge",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w13.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w14",
+    "name": "Mi-long Perle",
+    "style": "Carré long lisse",
+    "length": "mi-long",
+    "texture": "lisse",
+    "color_name": "Gris perle",
+    "color_hex": "#9D9A99",
+    "color_family": "gris",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 105,
+    "price_tnd": 460,
+    "fringe": true,
+    "face_shapes": [
+      "allonge",
+      "coeur",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w14.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w15",
+    "name": "Long Inès",
+    "style": "Long lisse raie côté",
+    "length": "long",
+    "texture": "lisse",
+    "color_name": "Châtain foncé",
+    "color_hex": "#442A1C",
+    "color_family": "chatain",
+    "tone": "neutral",
+    "material": "naturel",
+    "cap": "lace front",
+    "weight_g": 150,
+    "price_tnd": 1490,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "carre",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w15.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w16",
+    "name": "Long Soleil",
+    "style": "Long ondulé",
+    "length": "long",
+    "texture": "ondule",
+    "color_name": "Blond doré",
+    "color_hex": "#D1A95E",
+    "color_family": "blond",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 145,
+    "price_tnd": 560,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "carre",
+      "coeur",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w16.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w17",
+    "name": "Long Leïla",
+    "style": "Long wavy",
+    "length": "long",
+    "texture": "ondule",
+    "color_name": "Brun moka",
+    "color_hex": "#553624",
+    "color_family": "brun",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "lace front",
+    "weight_g": 150,
+    "price_tnd": 590,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "rond",
+      "coeur",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w17.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w18",
+    "name": "Long Nuit",
+    "style": "Long lisse",
+    "length": "long",
+    "texture": "lisse",
+    "color_name": "Noir",
+    "color_hex": "#1A1415",
+    "color_family": "noir",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "classique",
+    "weight_g": 140,
+    "price_tnd": 380,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "ovale",
+      "carre"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w18.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w19",
+    "name": "Long Boucles Zina",
+    "style": "Long bouclé",
+    "length": "long",
+    "texture": "boucle",
+    "color_name": "Noir naturel",
+    "color_hex": "#201817",
+    "color_family": "noir",
+    "tone": "warm",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 160,
+    "price_tnd": 540,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "allonge",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w19.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w20",
+    "name": "Long Frange Mia",
+    "style": "Long avec frange",
+    "length": "long",
+    "texture": "lisse",
+    "color_name": "Châtain clair",
+    "color_hex": "#7B5738",
+    "color_family": "chatain",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 145,
+    "price_tnd": 520,
+    "fringe": true,
+    "face_shapes": [
+      "allonge",
+      "coeur",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w20.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w21",
+    "name": "Long Cuivre",
+    "style": "Long ondulations",
+    "length": "long",
+    "texture": "ondule",
+    "color_name": "Roux cuivré",
+    "color_hex": "#A2502A",
+    "color_family": "roux",
+    "tone": "warm",
+    "material": "naturel",
+    "cap": "lace front",
+    "weight_g": 150,
+    "price_tnd": 1390,
+    "fringe": false,
+    "face_shapes": [
+      "carre",
+      "rond",
+      "ovale"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w21.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w22",
+    "name": "Long Platine",
+    "style": "Long lisse",
+    "length": "long",
+    "texture": "lisse",
+    "color_name": "Blond platine",
+    "color_hex": "#E3D6BE",
+    "color_family": "blond",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 140,
+    "price_tnd": 550,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "ovale",
+      "carre"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w22.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w23",
+    "name": "Court Hana",
+    "style": "Court volume dessus",
+    "length": "court",
+    "texture": "ondule",
+    "color_name": "Brun cendré",
+    "color_hex": "#4B3A31",
+    "color_family": "brun",
+    "tone": "cool",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 80,
+    "price_tnd": 370,
+    "fringe": false,
+    "face_shapes": [
+      "rond",
+      "ovale",
+      "coeur"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w23.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  },
+  {
+    "id": "w24",
+    "name": "Court Sable",
+    "style": "Pixie long",
+    "length": "court",
+    "texture": "lisse",
+    "color_name": "Blond sable",
+    "color_hex": "#BFA27B",
+    "color_family": "blond",
+    "tone": "neutral",
+    "material": "synthétique",
+    "cap": "monofilament",
+    "weight_g": 78,
+    "price_tnd": 380,
+    "fringe": true,
+    "face_shapes": [
+      "ovale",
+      "coeur",
+      "allonge",
+      "rond"
+    ],
+    "tryon": {
+      "type": "2d",
+      "src": "/static/wigs/tryon/w24.png",
+      "width": 1024,
+      "height": 1400,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.2571
+      },
+      "face_width": 0.4199,
+      "quality": "illustrative"
+    }
+  }
+]

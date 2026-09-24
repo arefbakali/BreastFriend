@@ -1,0 +1,14 @@
+# Dépendances de base (API, RAG, base vectorielle, OCR). Python 3.10 – 3.12.
+flask>=3.0,<4
+python-dotenv>=1.0
+requests>=2.31
+numpy>=1.26
+opencv-python-headless>=4.9
+pillow>=10.0
+pypdf>=4.0
+reportlab>=4.0
+# Base vectorielle Qdrant (serveur Docker ou mode embarqué). query_points() : >= 1.10
+qdrant-client>=1.10,<2
+# OCR des PDF scannés (nécessite aussi les programmes Tesseract et Poppler, voir README)
+pytesseract>=0.3.10
+pdf2image>=1.16

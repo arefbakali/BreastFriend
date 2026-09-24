@@ -1,0 +1,6 @@
+# Modèles locaux d'embedding (BAAI/bge-m3) et de reranking (BAAI/bge-reranker-v2-m3).
+# Nécessaire uniquement si EMBEDDING_PROVIDER=local ou RERANKER_ENABLED=true.
+# Installe PyTorch (version CPU par défaut sous Windows). Pour un GPU NVIDIA, installer d'abord :
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# Téléchargement des modèles au premier lancement : ~2,3 Go (bge-m3) + ~2,3 Go (reranker).
+sentence-transformers>=3.0,<6

@@ -1,0 +1,29 @@
+{
+  "description": "Jeu d'évaluation du RAG BreastFriend (mesure, pas d'entraînement). Chaque question a une réponse dans le corpus intégré, sauf celles marquées answerable=false.",
+  "items": [
+    {"id": "q01", "question": "À quelle fréquence faut-il faire son autopalpation et à quel moment du cycle ?", "expected_file": "03_autopalpation.md", "expected_section": "Quand la faire ?", "key_facts": ["une fois par mois", "semaine après le début des règles"]},
+    {"id": "q02", "question": "Que dois-je observer devant le miroir pendant l'autopalpation ?", "expected_file": "03_autopalpation.md", "expected_section": "Étape 1 : l'observation devant le miroir", "key_facts": ["symétrie", "peau d'orange"]},
+    {"id": "q03", "question": "Comment palper le sein, avec quels doigts ?", "expected_file": "03_autopalpation.md", "expected_section": "Étape 2 : la palpation", "key_facts": ["trois doigts", "cercles"]},
+    {"id": "q04", "question": "Quels signes doivent m'amener à consulter rapidement un médecin ?", "expected_file": "04_signes_alerte.md", "expected_section": "Principaux signes d'alerte", "key_facts": ["boule", "écoulement"]},
+    {"id": "q05", "question": "Une douleur au sein est-elle un signe de cancer ?", "expected_file": "04_signes_alerte.md", "expected_section": "La douleur", "key_facts": ["rarement"]},
+    {"id": "q06", "question": "Que signifie un résultat BI-RADS 4 ?", "expected_file": "05_diagnostic_examens.md", "expected_section": "Le bilan d'imagerie", "key_facts": ["biopsie"]},
+    {"id": "q07", "question": "À partir de quel âge et à quel rythme faire une mammographie de dépistage ?", "expected_file": "02_depistage_mammographie.md", "expected_section": "Mammographie de dépistage", "key_facts": ["50", "74", "deux ans"]},
+    {"id": "q08", "question": "Que faire si j'ai de la fièvre pendant ma chimiothérapie ?", "expected_file": "07_effets_secondaires.md", "expected_section": "Fièvre pendant la chimiothérapie : une urgence", "key_facts": ["38", "urgence"]},
+    {"id": "q09", "question": "Mon bras est gonflé et lourd après la chirurgie de l'aisselle, qu'est-ce que c'est ?", "expected_file": "07_effets_secondaires.md", "expected_section": "Le lymphœdème", "key_facts": ["lymphœdème", "manchons"]},
+    {"id": "q10", "question": "Quand faut-il choisir sa perruque, avant ou après la chute des cheveux ?", "expected_file": "08_alopecie_perruques.md", "expected_section": "Quand choisir sa perruque ?", "key_facts": ["avant"]},
+    {"id": "q11", "question": "Quelle différence entre une perruque en cheveux synthétiques et en cheveux naturels ?", "expected_file": "08_alopecie_perruques.md", "expected_section": "Cheveux synthétiques ou naturels", "key_facts": ["chaleur", "naturels"]},
+    {"id": "q12", "question": "Quelle coupe de perruque choisir pour un visage rond ?", "expected_file": "08_alopecie_perruques.md", "expected_section": "Choisir selon la forme du visage", "key_facts": ["menton"]},
+    {"id": "q13", "question": "Qu'est-ce qu'un bonnet monofilament pour une perruque ?", "expected_file": "08_alopecie_perruques.md", "expected_section": "Le bonnet de la perruque", "key_facts": ["monofilament"]},
+    {"id": "q14", "question": "Je me sens triste depuis mon diagnostic, est-ce normal ?", "expected_file": "09_soutien_psychologique.md", "expected_section": "Des émotions normales", "key_facts": ["normal"]},
+    {"id": "q15", "question": "Puis-je prendre des compléments alimentaires ou des plantes pendant mon traitement ?", "expected_file": "10_nutrition_activite.md", "expected_section": "Compléments alimentaires et plantes", "key_facts": ["interagir", "pharmacien"]},
+    {"id": "q16", "question": "L'activité physique est-elle recommandée pendant et après le traitement ?", "expected_file": "10_nutrition_activite.md", "expected_section": "Activité physique", "key_facts": ["fatigue"]},
+    {"id": "q17", "question": "Puis-je arrêter mon hormonothérapie si les effets secondaires sont difficiles ?", "expected_file": "11_suivi_apres_traitement.md", "expected_section": "Hormonothérapie au long cours", "key_facts": ["durée prescrite", "arrêter seule"]},
+    {"id": "q18", "question": "Qu'est-ce que la réunion de concertation pluridisciplinaire ?", "expected_file": "05_diagnostic_examens.md", "expected_section": "La réunion de concertation pluridisciplinaire", "key_facts": ["spécialistes", "deuxième avis"]},
+    {"id": "q19", "question": "Quels sont les facteurs de risque du cancer du sein ?", "expected_file": "01_cancer_sein_generalites.md", "expected_section": "Facteurs de risque", "key_facts": ["âge", "BRCA"]},
+    {"id": "q20", "question": "Quand appeler les urgences ?", "expected_file": "12_ressources_urgences.md", "expected_section": "Quand appeler les urgences ?", "key_facts": ["190"]},
+    {"id": "u01", "question": "Quel est le prix d'un billet de train Tunis–Sousse ?", "answerable": false},
+    {"id": "u02", "question": "Qui a gagné la coupe du monde de football 2018 ?", "answerable": false},
+    {"id": "u03", "question": "Quelle est la posologie exacte du docétaxel pour une femme de 60 kg ?", "answerable": false},
+    {"id": "u04", "question": "Donne-moi une recette de couscous au poisson.", "answerable": false}
+  ]
+}

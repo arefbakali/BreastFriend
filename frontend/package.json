@@ -1,0 +1,23 @@
+{
+  "name": "breastfriend-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "node scripts/setup-tryon.mjs",
+    "setup:tryon": "node scripts/setup-tryon.mjs",
+    "test": "node --test tests/tryon.test.mjs tests/query.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@mediapipe/tasks-vision": "0.10.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

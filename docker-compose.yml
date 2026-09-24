@@ -1,0 +1,48 @@
+# BreastFriend : Qdrant + backend (qui sert aussi le frontend compilé). Ollama en option.
+#   docker compose up -d qdrant                 # seulement Qdrant (développement local)
+#   docker compose up -d --build                # Qdrant + application complète
+#   docker compose --profile ollama up -d       # + LLM local Ollama dans Docker
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage        # index persistant entre les redémarrages
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: backend/.env
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      HOST: 0.0.0.0
+      DATA_DIR: /data
+    ports:
+      - "5000:5000"
+    volumes:
+      - backend_data:/data                 # base SQLite, documents, modèles téléchargés
+      - hf_cache:/root/.cache/huggingface
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+  backend_data:
+  hf_cache:
+  ollama_models:

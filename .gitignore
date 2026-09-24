@@ -1,0 +1,75 @@
+# =====================================================================
+#  BreastFriend — fichiers à ne jamais versionner
+# =====================================================================
+
+# ---- Secrets et configuration locale --------------------------------
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ---- Données de l'application (santé : ne jamais pousser) ------------
+# Base SQLite, documents déposés, comptes rendus PDF, photos,
+# index vectoriels (Qdrant embarqué, vectors.db), clé de session,
+# rapport d'évaluation
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+secret_key
+eval_report.json
+
+# ---- Python ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Modèles d'IA téléchargés ----------------------------------------
+.cache/
+huggingface/
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+
+# ---- Node / frontend -------------------------------------------------
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Fichiers MediaPipe copiés / téléchargés par « npm install »
+frontend/public/mediapipe/
+frontend/public/models/*.task
+!frontend/public/models/.gitkeep
+
+# ---- Journaux et fichiers temporaires ---------------------------------
+*.log
+logs/
+tmp/
+*.tmp
+
+# ---- Éditeurs et systèmes --------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
