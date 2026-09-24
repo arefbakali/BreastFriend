@@ -711,24 +711,16 @@ Le projet associe :
 
 ---
 
-## Auteur
+## Contact
 
-**Votre nom**
-Votre formation / spécialité
+- **GitHub:** https://github.com/arefbakali
+- **LinkedIn:** https://www.linkedin.com/in/aref-bak-ali/
+- **Email:** aref.bak-ali@dauphine.eu
+- **Portfolio:** https://portfolio-aref.vercel.app/
 
-GitHub : `https://github.com/YOUR-USERNAME`
+## Author
 
----
+**Aref Bak Ali**  
+AI, Data Science & Agentic AI Student  
+Université Paris Dauphine-PSL
 
-## Rappel pour les images
-
-Les captures utilisées dans ce README se trouvent dans `assets/`. Gardez exactement ces noms de fichiers pour que les images s'affichent sur GitHub :
-
-```text
-assets/01-accueil-patiente.jpg
-assets/02-autopalpation-guidee.jpg
-assets/03-assistante-rag.jpg
-assets/04-recommandation-perruque.jpg
-assets/05-tableau-de-bord-medecin.jpg
-assets/06-dossier-patiente.jpg
-```
